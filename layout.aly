@@ -1,0 +1,49 @@
+{
+  LinearLayoutCompat;
+  layout_width = "fill";
+  orientation = "vertical";
+  layout_height = "fill";
+  gravity = "left";
+  {
+    LinearLayout;
+    layout_height = "200dp";
+    layout_width = "match_parent";
+  };
+  {
+    LinearLayout;
+    layout_width = "match_parent";
+    layout_height = "match_parent";
+    gravity = "bottom|center";
+    {
+      CardView;
+      layout_width = "wrap_content";
+      id = "ti";
+      layout_height = "40dp";
+      {
+        Button;
+        text = "主页";
+        id = "ty";
+      };
+    };
+    {
+      CardView;
+      layout_height = "40dp";
+      layout_width = "wrap_content";
+      {
+        Button;
+        text = "配置";
+        id = "tt";
+      };
+    };
+    {
+      CardView;
+      layout_height = "40dp";
+      layout_width = "wrap_content";
+      {
+        Button;
+        text = "设置";
+        id = "tu";
+      };
+    };
+  };
+};
