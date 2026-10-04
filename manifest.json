@@ -1,0 +1,35 @@
+{
+  "versionName": "1.0.7",
+  "versionCode": "17",
+  "uses_sdk": {
+    "minSdkVersion": "21",
+    "targetSdkVersion": "29"
+  },
+  "package": "myluaapp.qiye",
+  "application": {
+    "label": "Qiye 1.0.7",
+    "debugmode": false
+  },
+  "user_permission": [
+  "REQUEST_INSTALL_PACKAGES",
+  "WRITE_EXTERNAL_STORAGE",
+  "INTERNET",
+  "SYSTEM_ALERT_WINDOW",
+  "READ_EXTERNAL_STORAGE"
+  ],
+  "compilation": true,
+  "skip_compilation": [
+  
+  ],
+  "protection": {
+    "profile": "standard"
+  },
+  "jmp": {
+    "encryption": false,
+    "dump_obfuscate": false
+  },
+  "print": {
+    "type": "Snackbar",
+    "copy": true
+  }
+}
